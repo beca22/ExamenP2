@@ -1,14 +1,95 @@
 <ion-header>
   <ion-navbar>
     <ion-title>
-      Ionic Blank
+      Mis Discos
     </ion-title>
   </ion-navbar>
 </ion-header>
 
-<ion-content padding>
-  The world is your oyster.
-  <p>
-    If you get lost, the <a href="http://ionicframework.com/docs/v2">docs</a> will be your guide.
-  </p>
+<ion-content  style="background-color: #a1cdf1" padding>
+  
+  <ion-card style="background-color: #d56c3d">
+    <ion-row>
+      <ion-col>
+        <img (click)="Feel()" src ="../assets/PortadaFeel.jpg">
+      </ion-col>
+
+      <ion-col>
+        <h1 (click) = "cancionesFeel()"> Feel </h1>
+        <h2 (click) = "SWS()"> Sleeping With Sirens </h2>
+        <p> 2013</p>
+        <ion-icon name = "star" (click) = "resenasFeel()"> </ion-icon>
+        <ion-icon name = "star" (click) = "resenasFeel()"></ion-icon>
+        <ion-icon name = "star" (click) = "resenasFeel()"></ion-icon>
+        <ion-icon name = "star" (click) = "resenasFeel()"></ion-icon>
+        <ion-icon name = "star" (click) = "resenasFeel()"></ion-icon>
+         <p></p>
+        <ion-icon  color= "black" name = "play"></ion-icon>
+      </ion-col>
+    </ion-row>
+  </ion-card>
+
+
+  <ion-card style="background-color: #e8e288 ">
+      <ion-row>
+        <ion-col>
+          <img (click)="Madness()" src ="../assets/PortadaMadness.jpg">
+        </ion-col>
+  
+        <ion-col>
+          <h1 (click) = "cancionesMadness()"> Madness </h1>
+          <h2 (click) = "SWS()"> Sleeping With Sirens </h2>
+          <p> 2015</p>
+          <ion-icon name = "star" (click) = "resenasMadness()"> </ion-icon>
+          <ion-icon name = "star" (click) = "resenasMadness()"></ion-icon>
+          <ion-icon name = "star" (click) = "resenasMadness()"></ion-icon>
+          <ion-icon name = "star" (click) = "resenasMadness()"></ion-icon>
+          <ion-icon name = "star" (click) = "resenasMadness()"></ion-icon>
+           <p></p>
+          <ion-icon  color= "black" name = "play"></ion-icon>
+        </ion-col>
+      </ion-row>
+    </ion-card>
+
+
+    <ion-card style="background-color: #7dce87">
+        <ion-row>
+          <ion-col>
+            <img (click)="Divide()" src ="../assets/PortadaDivide.jpg">
+          </ion-col>
+    
+          <ion-col>
+            <h1 (click) = "cancionesDivide()"> Divide </h1>
+            <h2 (click) = "EdSheeran()"> Ed Sheeran </h2>
+            <p> 2017</p>
+            <ion-icon name = "star" (click) = "resenasDivide()"> </ion-icon>
+            <ion-icon name = "star" (click) = "resenasDivide()"></ion-icon>
+            <ion-icon name = "star" (click) = "resenasDivide()"></ion-icon>
+            <ion-icon name = "star" (click) = "resenasDivide()"></ion-icon>
+             <p></p>
+            <ion-icon  color= "black" name = "play"></ion-icon>
+          </ion-col>
+        </ion-row>
+      </ion-card>
+  
+ 
+      <ion-card style="background-color: #2a9e98">
+          <ion-row>
+            <ion-col>
+              <img (click)="Answer()" src ="../assets/LYS_Answer.jpg">
+            </ion-col>
+      
+            <ion-col>
+              <h1 (click) = "cancionesAnswer()"> Love Yourself 結: Answer   </h1>
+              <h2 (click) = "BTS()"> BTS </h2>
+              <p> 2018</p>
+              <ion-icon name = "star" (click) = "resenasAnswer()"> </ion-icon>
+              <ion-icon name = "star" (click) = "resenasAnswer()"></ion-icon>
+              <ion-icon name = "star" (click) = "resenasAnswer()"></ion-icon>
+               <p></p>
+              <ion-icon  color= "black" name = "play"></ion-icon>
+            </ion-col>
+          </ion-row>
+        </ion-card>
+
 </ion-content>
